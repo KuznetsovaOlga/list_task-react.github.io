@@ -1,0 +1,36 @@
+.add {
+    margin: auto;
+    margin-top: 50px;
+    width: 310px;
+    border: 1px solid rgba(0, 89, 181, 0.82);
+    padding: 20px;
+    border-radius: 15px;
+}
+.add__author, .add__text, .add__btn, .add__checkrule {
+    display: block;
+    margin: 0 0 5px 0;
+    padding: 5px;
+    width: 94%;
+    border: 1px solid rgba(0, 89, 181, 0.82);
+}
+.add__checkrule {
+    border: none;
+    font-size: 12px;
+}
+.add__btn {
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.add__btn:hover {
+    font-weight: bold;
+    box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+}
+.add__btn:disabled {
+    background: #CCC;
+    color: #999;
+}

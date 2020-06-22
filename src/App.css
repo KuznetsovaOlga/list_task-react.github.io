@@ -1,0 +1,80 @@
+body {
+  background: rgba(55, 118, 212, 0.514);
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+.article {
+  background: #FFF;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  width: 600px;
+  margin: 0 0 5px;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 3px 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 15px;
+
+  position: relative;
+}
+
+.article:hover {
+  background-color: rgb(43, 161, 89);
+  color: white;
+} 
+
+.article:hover .article__author {
+  color: white;
+}
+
+.article__author {
+  text-decoration: underline;
+  color: #007DDC;
+  font-weight: bold;
+}
+
+.article__link{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.text-big__link{
+  padding-top: 10px;
+}
+
+.article__btn-delete {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+}
+
+.block__article {
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .article {
+    width: 350px;
+  }
+  .article__link {
+    display: block;
+    text-align: end;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 635px){
+  .article {
+    width: 500px;
+  }
+  .article__link {
+    display: block;
+    text-align: end;
+  }
+}
+

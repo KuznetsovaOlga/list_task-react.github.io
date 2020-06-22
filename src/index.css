@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+
+@media (min-width: 480px) and (max-width: 576px) {
+  .article {
+    width: 350px;
+  }
+}
+
