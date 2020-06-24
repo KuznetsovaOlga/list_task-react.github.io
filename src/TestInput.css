@@ -33,4 +33,5 @@
 .add__btn:disabled {
     background: #CCC;
     color: #999;
+    pointer-events: none;
 }

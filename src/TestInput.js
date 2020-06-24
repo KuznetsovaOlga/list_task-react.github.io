@@ -80,7 +80,7 @@ class TestInpyt extends React.Component{
                 <textarea
                     type='text'
                     className="add__text"
-                    placeholder='Краткое пояснение новости'
+                    placeholder='Заголовок'
                     onChange={this.onTextareaHandler}
                     value={textareaValue}
                />
